@@ -8,4 +8,4 @@ Crea el .dll necesario para conectar la interfaz con el modelo .onnx.
 
 -----  WEBCAM OPENCV -----
 
-Interfaz para captura de imágenes base para postreriormente formar el dataset.
+Interfaz para captura de imágenes base para postreriormente formar el dataset. Al capturar cada imagen, permite clasificarla como "MADURA" o "VERDE", añadiendo un identificador que permitirá a la herramienta de preprocesamiento ordenar las imágenes del dataset.
