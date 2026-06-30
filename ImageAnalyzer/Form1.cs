@@ -6,6 +6,7 @@ using System.ComponentModel;
 using System.Configuration;
 using System.Data;
 using System.Drawing;
+using System.Drawing.Drawing2D;
 using System.Drawing.Imaging;
 using System.Linq;
 using System.Runtime.InteropServices;
@@ -89,6 +90,9 @@ namespace ImageAnalyzer
                 modelPath = openFileDialog2.FileName;
                 clase.Text = "";
                 confianzatxt.Text = "";
+                image.Image = null;
+                imagePath = "";
+                imgp.Text = "";
                 if (CargarModelo(modelPath))
                 {
                     modelp.Text = modelPath;
