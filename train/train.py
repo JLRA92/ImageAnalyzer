@@ -25,15 +25,15 @@ val_ds = tf.keras.utils.image_dataset_from_directory(
 model = models.Sequential([
     layers.Input(shape=(224, 224, 3)), 
     layers.Rescaling(1.0/127.5, offset=-1.0),
-    layers.Conv2D(32, (3, 3), padding='same', activation='relu'),
+    layers.Conv2D(32, (3, 3), activation='relu'),
     layers.MaxPooling2D((2, 2)),
-    layers.Conv2D(64, (3, 3), padding='same', activation='relu'),
+    layers.Conv2D(64, (3, 3), activation='relu'),
     layers.MaxPooling2D((2, 2)),
-    layers.Conv2D(128, (3, 3), padding='same', activation='relu'),
+    layers.Conv2D(128, (3, 3), activation='relu'),
     layers.MaxPooling2D((2, 2)),
-    layers.Conv2D(128, (3, 3), padding='same', activation='relu'),
+    layers.Conv2D(128, (3, 3), activation='relu'),
     layers.GlobalAveragePooling2D(),
-    layers.Dropout(0.3),
+    layers.Dropout(0.25),
     layers.Dense(2, activation='softmax')
 ])
 

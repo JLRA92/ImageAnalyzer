@@ -161,7 +161,6 @@ namespace ImageAnalyzer
                     {
                         miWebcam.Start();
                     }
-
                 }
                 else
                 {

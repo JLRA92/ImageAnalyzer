@@ -337,9 +337,10 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.clase.AutoSize = true;
-            this.clase.Location = new System.Drawing.Point(3, 0);
+            this.clase.Location = new System.Drawing.Point(3, 3);
+            this.clase.Margin = new System.Windows.Forms.Padding(3);
             this.clase.Name = "clase";
-            this.clase.Size = new System.Drawing.Size(646, 39);
+            this.clase.Size = new System.Drawing.Size(646, 33);
             this.clase.TabIndex = 0;
             this.clase.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -349,9 +350,10 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.confianzatxt.AutoSize = true;
-            this.confianzatxt.Location = new System.Drawing.Point(3, 39);
+            this.confianzatxt.Location = new System.Drawing.Point(3, 42);
+            this.confianzatxt.Margin = new System.Windows.Forms.Padding(3);
             this.confianzatxt.Name = "confianzatxt";
-            this.confianzatxt.Size = new System.Drawing.Size(646, 40);
+            this.confianzatxt.Size = new System.Drawing.Size(646, 34);
             this.confianzatxt.TabIndex = 1;
             this.confianzatxt.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
